@@ -9,27 +9,27 @@
     <h1>User Registeration form</h1>
     <form>
       <p>First Name:
-        <input type="text" name="first name">
+        <input type="text" name="first name" >
       </p>
       <p>Last name: 
-        <input type="text" name="last name">
+        <input type ="text" name="last name">
       </p>
       <p>Password: 
-        <input type="password" name="password" maxlength="30">
-      </p>
+        <input type="password" name="name" maxlength="30">
+      </p> 
       <p>Bio: 
-        <textarea type="text" maxlength="400"></textarea>
+        <textarea type required="text" maxlength="400"></textarea>
       </p>
       </form>
       <fieldset>
         <legend>Gender</legend>
-        <input type="radio" name="gender" value="male">male<br>
-        <input type="radio" name="gender" value="female">female<br>
+        <input type="radio" name="gender" value="male" checked="checked">male<br>
+        <input type="radio" name="gender" value="female" >female<br>
         <input type="radio" name="gender" value="other">other
       </fieldset>
       <fieldset>
         <legend>Interests</legend>
-        <input type="radio" name="Interests" value="Music">Music<br>
+        <input type="radio" name="Interests" value="Music" checked="checked">Music<br>
         <input type="radio" name="Interests" value="Sports">Sports<br>
         <input type="radio" name="Interests" value="Reading">Reading
       </fieldset>
@@ -48,20 +48,20 @@
           </select>
         </p>
         <p>Profile Picture:
-          <input name="profile picture" type="file" value="profile Picture">
+          <input name="profile picture" type="file">
         </p>
         <p>
           Birthdate:
-          <input name="date of birth" type="date" value="Birthdate">
+          <input name="date of birth" type ="date" value="Birthdate">
         </p>
         <p>Email:
-          <input name="email" type="text">
+          <input name="email" type="email" required="required">
         </p>
         <p>Website:
-          <input name="website" type="text" >
+          <input name="website" type="url" required="required">
         </p>
         <P>Search:
-          <input name="search" type="search">
+          <input name="search" type="search" required="required">
           </P>
           <p>
           <input type="submit" name="submit"  value="submit">
